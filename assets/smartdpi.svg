@@ -1,0 +1,33 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="720" viewBox="0 0 1200 720" fill="none">
+  <rect width="1200" height="720" fill="#F4F7FB"/>
+  <rect x="84" y="86" width="1032" height="548" rx="24" fill="#FFFFFF" stroke="#DCE7F3" stroke-width="2"/>
+  <rect x="84" y="86" width="1032" height="72" rx="24" fill="#0F766E"/>
+  <path d="M84 134H1116V158H84V134Z" fill="#0F766E"/>
+  <circle cx="126" cy="122" r="9" fill="#D1FAE5"/>
+  <circle cx="154" cy="122" r="9" fill="#A7F3D0"/>
+  <circle cx="182" cy="122" r="9" fill="#5EEAD4"/>
+  <rect x="229" y="108" width="310" height="28" rx="14" fill="#F8FAFC" fill-opacity=".95"/>
+  <text x="252" y="128" fill="#0F766E" font-family="Poppins, Arial, sans-serif" font-size="16" font-weight="700">smartdpi.netlify.app</text>
+  <rect x="134" y="206" width="448" height="332" rx="22" fill="#ECFEFF" stroke="#99F6E4" stroke-width="2"/>
+  <rect x="166" y="238" width="180" height="20" rx="10" fill="#0F766E"/>
+  <rect x="166" y="274" width="336" height="16" rx="8" fill="#64748B"/>
+  <rect x="166" y="304" width="292" height="16" rx="8" fill="#94A3B8"/>
+  <rect x="166" y="354" width="156" height="46" rx="14" fill="#14B8A6"/>
+  <rect x="342" y="354" width="132" height="46" rx="14" fill="#FFFFFF" stroke="#99F6E4" stroke-width="2"/>
+  <text x="203" y="384" fill="#FFFFFF" font-family="Poppins, Arial, sans-serif" font-size="16" font-weight="800">Calculate</text>
+  <text x="377" y="384" fill="#0F766E" font-family="Poppins, Arial, sans-serif" font-size="16" font-weight="800">Reset</text>
+  <rect x="166" y="448" width="370" height="52" rx="16" fill="#FFFFFF" stroke="#CCFBF1" stroke-width="2"/>
+  <rect x="190" y="469" width="180" height="10" rx="5" fill="#CBD5E1"/>
+  <rect x="400" y="464" width="92" height="20" rx="10" fill="#14B8A6"/>
+  <rect x="638" y="206" width="428" height="332" rx="22" fill="#F8FAFC" stroke="#E2E8F0" stroke-width="2"/>
+  <rect x="678" y="246" width="348" height="36" rx="18" fill="#0F172A"/>
+  <text x="704" y="271" fill="#FFFFFF" font-family="Poppins, Arial, sans-serif" font-size="16" font-weight="800">Smart DPI Result</text>
+  <circle cx="852" cy="383" r="92" fill="#CCFBF1"/>
+  <circle cx="852" cy="383" r="68" fill="#2DD4BF"/>
+  <circle cx="852" cy="383" r="42" fill="#0F766E"/>
+  <path d="M852 300V383L911 442" stroke="#FFFFFF" stroke-width="12" stroke-linecap="round" stroke-linejoin="round"/>
+  <rect x="700" y="506" width="304" height="20" rx="10" fill="#CBD5E1"/>
+  <rect x="744" y="548" width="216" height="20" rx="10" fill="#99F6E4"/>
+  <text x="134" y="608" fill="#0F172A" font-family="Poppins, Arial, sans-serif" font-size="30" font-weight="900">SmartDPI</text>
+  <text x="134" y="642" fill="#475569" font-family="Poppins, Arial, sans-serif" font-size="18" font-weight="600">Responsive web calculator interface</text>
+</svg>

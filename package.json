@@ -1,0 +1,22 @@
+{
+  "name": "pp",
+  "version": "1.0.0",
+  "description": "",
+  "main": "script.js",
+  "scripts": {
+    "build:css": "node -e \"const fs=require('fs');const CleanCSS=require('clean-css');const o=new CleanCSS({level:2}).minify(fs.readFileSync('style.premium.css','utf8'));fs.writeFileSync('style.premium.min.css',o.styles);console.log('CSS minified')\"",
+    "build:js": "node -e \"const fs=require('fs');const {minify}=require('terser');minify(fs.readFileSync('script.js','utf8'),{compress:true,mangle:true}).then(r=>{fs.writeFileSync('script.min.js',r.code);console.log('JS minified')})\"",
+    "build": "npm run build:css && npm run build:js",
+    "optimize:images": "node optimize-images.js && node optimize-img2.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "dependencies": {
+    "clean-css": "^5.3.3",
+    "sharp": "^0.35.3",
+    "terser": "^5.49.0"
+  }
+}
