@@ -404,6 +404,23 @@ section{ padding: 80px 0; }
   filter: drop-shadow(0 8px 24px rgba(34,211,238,.35)) drop-shadow(0 4px 16px rgba(139,92,246,.30));
 }
 
+.skill-icon i{
+  font-size: 36px;
+  display: block;
+}
+
+.skill-icon-html i{ color: #E34F26; }
+.skill-icon-css i{ color: #264DE4; }
+.skill-icon-js i{ color: #F7DF1E; }
+.skill-icon-wp i{ color: #21759B; }
+.skill-icon-ux i{ color: #ff6b9d; }
+.skill-icon-figma i{ color: #F24E1E; }
+
+.skill:hover .skill-icon i{
+  transform: scale(1.08);
+  color: #fff;
+}
+
 .skill-desc{
   position:relative;
   margin: 8px 0 0;
@@ -595,8 +612,9 @@ footer .back-to-top{ color: rgba(194, 158, 255, .98); font-weight:900; }
     padding: 12px;
     box-shadow: var(--shadow);
   }
-  .skills-grid{ grid-template-columns: 1fr; }
-  .grid-3{ grid-template-columns: 1fr; }
+.skills-grid{ grid-template-columns: 1fr; }
+   .skill-icon i{ font-size: 28px; }
+   .grid-3{ grid-template-columns: 1fr; }
 }
 
 @media (prefers-reduced-motion: reduce){
