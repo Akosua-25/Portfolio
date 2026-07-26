@@ -593,8 +593,8 @@ footer .back-to-top{ color: rgba(194, 158, 255, .98); font-weight:900; }
 }
 
 @media (max-width: 720px){
-  .nav-links{ display:none; }
-  .menu-btn{ display:block; }
+   .nav-links{ display:none; }
+   .menu-btn{ display:block; }
 
   .navbar-inner{ padding: 0 0; }
   .skills-grid{ grid-template-columns: 1fr; }
